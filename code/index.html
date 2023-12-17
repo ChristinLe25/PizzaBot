@@ -5,7 +5,19 @@
     <title>Pizzabot</title>
   </head>
   <body>
-    <script src="./pizzabot.js" charset="utf-8"></script>
-    Edit pizzabot.js to complete this assignment.
+    <form action="" id="pizza-form">
+      <legend>Choose pizza:</legend>
+      <select class="pizza-toppings" id="pizza-toppings"></select>
+      <br>
+      <label for="pizza-amount">How many?</label>
+      <input type="number" class="pizza-amount" id="pizza-amount">
+
+      <button type="submit">submit</button>
+    </form>
+
+    <div class="show-order" id="show-order"></div>
+    
+    <script src="script/pizzabot.js"></script>
+  
   </body>
 </html>
